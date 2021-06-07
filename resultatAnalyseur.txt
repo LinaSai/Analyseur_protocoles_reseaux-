@@ -1,0 +1,61 @@
+Trame(s) extraite(s) du fichier : http.txt
+Le nombre de trames erronees est : 0
+Le nombre de trames correctes est : 1
+
+Trame 0 : -- 200 octets --
+	Type: IPV4 (0x0800) 
+   Protocol Ethernet:
+	Destination: 00:26:62:2f:47:87
+	Source: 00:1d:60:b3:01:84
+	Protocol: TCP (6)
+   Internet Protocol Version 4:
+	0100 .... = Version: 4 
+	.... 0101 = Header Length: 20 bytes (5) 
+	Identification: 0xcb5d (52061)
+	Flags: 0x40 
+		0... .... = Reserved bit: Not set 
+		.1.. .... = Don't fragment: Set 
+		..0. .... = More fragments: Not set 
+	Total Length: 186
+	Time to Live: 64
+	Header Checksum: 0x2864
+	Source Address: 192.168.1.140
+	Destination Address: 174.143.213.184
+   Transmission Control Protocol:@=
+	Source Port: 57678
+	Destination Port : 80
+	Sequence Number: 2387613954
+	Acknowledgment Number: 3344080265 
+	1000 .... = Header Length: 32 bytes (8)
+	Flags: 0x018 
+		000. .... .... = Reserved : not set 
+		...0 .... .... = Nonce: not set 
+		.... 0... .... = Congestion Window Reduced (CWR): not set 
+		.... .0.. .... = ECN-Echo: not set 
+		.... ..0. .... = Urgent: not set 
+		.... ...1 .... = Acknowledgment: set 
+		.... .... 1... = Push: set 
+		.... .... .0.. = Reset: not set 
+		.... .... ..0. = Syn: not set 
+		.... .... ...0 = Fin: not set 
+	Window size value: 46
+	Checksum: 0x4729 [unverified]
+	Urgent pointer: 0
+	Options: 12 bytes
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 2216543
+		Timestamp echo reply: 835172936
+   Hypertext Transfer Protocol:
+	GET /images/layout/logo.png HTTP/1.0
+	User-Agent: Wget/1.12 (linux-gnu)
+	Accept: */*
+	Host: packetlife.net
+	Connection: Keep-Alive
+	DATA : 0 bytes
+
